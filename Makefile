@@ -10,8 +10,8 @@ test: all
 	py.test
 
 test-cov: all
-	py.test --cov=q2_dada22
-
+	py.test --cov=q2_corncob
+	
 install: all
 	python setup.py install
 
